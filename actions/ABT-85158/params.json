@@ -1,0 +1,117 @@
+{
+    "category": "plugins",
+    "display": "PDFMonkey - Generate a Document",
+    "fields": {
+        "ABU": {
+            "caption": "Template ID",
+            "doc": "ID of your Template in PDFMonkey",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "name": "templateId",
+            "options": "",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABV": {
+            "caption": "Document data",
+            "doc": "Data used to generate the Document",
+            "editor": "key_value_list",
+            "name": "payload",
+            "rank": 1,
+            "value": "text"
+        },
+        "ABW": {
+            "caption": "Document meta-data",
+            "doc": "Data attached to the Document and accessible outside of generation",
+            "editor": "key_value_list",
+            "name": "meta",
+            "rank": 2,
+            "value": "text"
+        },
+        "ABX": {
+            "caption": "Filename",
+            "doc": "Filename of the generated PDF",
+            "editor": "DynamicValue",
+            "name": "filename",
+            "optional": true,
+            "rank": 3,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "ABZ": {
+            "caption": "Filename",
+            "name": "filename",
+            "rank": 3,
+            "value": "text"
+        },
+        "ABa": {
+            "caption": "Creation Date",
+            "name": "createdAt",
+            "rank": 7,
+            "value": "date"
+        },
+        "ABb": {
+            "caption": "Generation Date",
+            "name": "updatedAt",
+            "rank": 8,
+            "value": "date"
+        },
+        "ABd": {
+            "caption": "Document meta-data",
+            "name": "meta",
+            "rank": 4,
+            "value": "text"
+        },
+        "ABe": {
+            "caption": "Public Share Link (Premium only)",
+            "name": "publicShareLink",
+            "rank": 2,
+            "value": "text"
+        },
+        "ABf": {
+            "caption": "Status",
+            "name": "status",
+            "rank": 5,
+            "value": "text"
+        },
+        "ABg": {
+            "caption": "Failure cause",
+            "name": "failureCause",
+            "rank": 6,
+            "value": "text"
+        },
+        "ABh": {
+            "caption": "id",
+            "name": "id",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABi": {
+            "caption": "Download URL (valid for 1h)",
+            "name": "downloadUrl",
+            "rank": 1,
+            "value": "file"
+        },
+        "ABj": {
+            "caption": "Workspace ID",
+            "name": "appid",
+            "rank": 9,
+            "value": "text"
+        },
+        "ABk": {
+            "caption": "Template ID",
+            "name": "documentTemplateId",
+            "rank": 10,
+            "value": "text"
+        },
+        "ABl": {
+            "caption": "Template name",
+            "name": "documentTemplateName",
+            "rank": 11,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

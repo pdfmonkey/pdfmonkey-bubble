@@ -1,0 +1,25 @@
+{
+    "auth": "private_key_header",
+    "calls": {
+        "ABm": {
+            "initialized": true,
+            "method": "get",
+            "name": "List Workspaces",
+            "publish_as": "data",
+            "rank": 0,
+            "ret_value": "api.1634904776187x632941607749681200.plugin_api.ABm",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ABm\":{\"caption\":\"List Workspace\",\"fields\":{\"_p_workspace_cards\":{\"ret_btype\":\"list.api.1634904776187x632941607749681200.plugin_api.ABm.workspace_cards\",\"caption\":\"workspace_cards\",\"path\":[\"workspace_cards\"]},\"_p_meta.current_page\":{\"ret_btype\":\"number\",\"caption\":\"meta current_page\",\"sample_value\":1,\"path\":[\"meta\",\"current_page\"]},\"_p_meta.next_page\":{\"ret_btype\":\"number\",\"caption\":\"meta next_page\",\"sample_value\":null,\"path\":[\"meta\",\"next_page\"]},\"_p_meta.prev_page\":{\"ret_btype\":\"number\",\"caption\":\"meta prev_page\",\"sample_value\":null,\"path\":[\"meta\",\"prev_page\"]},\"_p_meta.total_pages\":{\"ret_btype\":\"number\",\"caption\":\"meta total_pages\",\"sample_value\":1,\"path\":[\"meta\",\"total_pages\"]}}},\"plugin_api.ABm.workspace_cards\":{\"caption\":\"List Workspaces workspace_card\",\"fields\":{\"_p_id\":{\"ret_btype\":\"text\",\"caption\":\"id\",\"sample_value\":\"12345678-90ab-cdef-1234-567890abcdef\",\"path\":[\"id\"]},\"_p_identifier\":{\"ret_btype\":\"text\",\"caption\":\"identifier\",\"sample_value\":\"My Workspace\",\"path\":[\"identifier\"]},\"_p_invite_token\":{\"ret_btype\":\"text\",\"caption\":\"invite_token\",\"sample_value\":null,\"path\":[\"invite_token\"]},\"_p_updated_at\":{\"ret_btype\":\"date\",\"caption\":\"updated_at\",\"sample_value\":\"2024-08-07T13:47:51.085+02:00\",\"path\":[\"updated_at\"]},\"_p_current_plan\":{\"ret_btype\":\"text\",\"caption\":\"current_plan\",\"sample_value\":\"pro\",\"path\":[\"current_plan\"]}}}}",
+            "url": "https://api.pdfmonkey.io/api/v1/workspace_cards"
+        }
+    },
+    "human": "PDFMonkey API",
+    "shared_headers": {
+        "ABn": {
+            "key": "Authorization",
+            "private": true,
+            "visibility": "secret"
+        }
+    },
+    "token_param_name": "Authorization"
+}

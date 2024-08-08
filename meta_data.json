@@ -1,0 +1,15 @@
+{
+    "categories": {
+        "0": "technical",
+        "1": "PDF",
+        "2": "productivity",
+        "3": "ecommerce",
+        "4": "news"
+    },
+    "description": "PDFMonkey is an app that automates PDF generation, provides a dashboard to manage templates, and provides a simple API to generate documents.",
+    "image": "//s3.amazonaws.com/appforest_uf/f1654984078090x909881387007974500/IFTTT%20Brand%20Logo.svg",
+    "license": "open_source",
+    "link": "https://pdfmonkey.io/",
+    "name": "PDFMonkey",
+    "sa_node_version": 18
+}
